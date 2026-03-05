@@ -17,6 +17,9 @@ A tiny TypeScript sandbox with a couple of starter files for exploring basic syn
    npx ts-node src/02-primitive-types.ts
    npx ts-node src/03-type-inference.ts
    npx ts-node src/04-functions.ts
+   npx ts-node src/05-objetcs-interfaces.ts
+   npx ts-node src/06-type-alias.ts
+   npx ts-node src/07-union-intersection.ts
    ```
 
 ## Project layout
@@ -24,6 +27,9 @@ A tiny TypeScript sandbox with a couple of starter files for exploring basic syn
 - `src/02-primitive-types.ts` — primitives, arrays, tuples, enums, any/unknown, and a simple `greet()`
 - `src/03-type-inference.ts` — shows how TypeScript infers types from initial values
 - `src/04-functions.ts` — function annotations, optional/default/rest params, and callable types
+- `src/05-objetcs-interfaces.ts` — optional/readonly props, interface methods, and implementing simple contracts
+- `src/06-type-alias.ts` — type aliases for objects and primitives, union-style IDs, plus interfaces vs type notes
+- `src/07-union-intersection.ts` — union literals for state and intersections to combine shapes
 - `tsconfig.json` — strict CommonJS config targeting ES2020
 
 ## Tips
